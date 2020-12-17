@@ -1,0 +1,16 @@
+{
+  "name": "MX Mailgun",
+  "shortname": "mxmailgun",
+  "version": "1.0.4",
+  "foundation_version": "4.5.2",
+  "description": "Send Emails using Mailgun API",
+  "license": "MaxLazar",
+  "namespace": "MX\\Mailgun",
+  "require": {
+    "php": ">=5.3.*",
+    "expressionengine/core": ">=3.5.17"
+  },
+  "resources": {
+    "themes": false
+  }
+}

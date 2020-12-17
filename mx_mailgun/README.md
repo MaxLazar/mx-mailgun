@@ -1,8 +1,4 @@
 # MX Mailgun
-![MX Mailgun](resources/img/mx-mailgun.png)
-
-![MX Mailgun Demo](resources/img/mx-mailgun-demo.png)
-
 Mailgun mailer adapter for ExpressionEngine.
 
 ## Installation

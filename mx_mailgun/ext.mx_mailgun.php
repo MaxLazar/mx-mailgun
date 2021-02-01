@@ -12,7 +12,6 @@ use ZBateson\MailMimeParser\Message;
 use ZBateson\MailMimeParser\Header\HeaderConsts;
 use GuzzleHttp\Psr7;
 
-
 class Mx_mailgun_ext
 {
 
@@ -117,6 +116,7 @@ class Mx_mailgun_ext
         }
 
         $defaults = array(
+            'enable'          => 1,
             'mailgun_api_key' => '',
             'mailgun_domain'  => '',
             'mailgun_region'  => 'US'
@@ -165,7 +165,7 @@ class Mx_mailgun_ext
                         )
                     )
                 )
-            ,
+                ,
                 array(
                     'title'  => 'mailgun_region',
                     'fields' => array(
